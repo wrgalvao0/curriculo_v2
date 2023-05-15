@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 10px;
+}
+.links-sobre{
+    text-decoration: none;
+    color: #99c432;
+}
+.links-sobre:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+section{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+}
+#titulo-cabecalho{
+    color: #99c432;
+}
+.titulos-secoes{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.separadores{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid white;
+}
+.layout{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+img{
+    border-radius: 100%;
+    width: 150px;
+}
+.coluna-1{
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #4c4c4c;
+}
+.coluna-2{
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #4c4c4c
+}
+.textos{
+    text-indent: 40px;
+    text-align: justify;
+}
+h4{
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+h5{
+    margin-bottom: 10px;
+}
+.textos-experiencias{
+    text-align: justify;
+}
+.links_cursos{
+    color: white;
+}
+.icones{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+}
+.icones-sobre{
+    color: white;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+}
+.layout-icones-sobre{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
