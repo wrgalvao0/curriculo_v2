@@ -11,7 +11,7 @@ header{
     padding: 10px;
 }
 .links-sobre{
-    text-decoration: none;
+    text-decoration: underline;
     color: #99c432;
 }
 .links-sobre:hover{
