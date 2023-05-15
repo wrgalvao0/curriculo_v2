@@ -3,12 +3,27 @@
     margin: 0;
     padding: 0;
 }
+.grupo-cabecalho{
+
+}
 .cabecalho{
     padding: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    font-size: larger;
+}
+header
+{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#titulo-cabecalho{
+    font-size: larger;
+}
+#subtitulo-cabecalho{
+    font-size: medium;
+    color: black;
 }
 body{
     width: 100%;
@@ -56,6 +71,7 @@ section{
     border: 1px solid white;
 }
 img{
+    height: 150px;
     border-radius: 100%;
     width: 150px;
 }
